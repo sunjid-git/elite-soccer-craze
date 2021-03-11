@@ -1,4 +1,4 @@
-# Elite Soccer Craze [Live Site]()
+# Elite Soccer Craze [Live Site](https://youthful-hawking-c6635a.netlify.app/)
 
 ## Requirements - Done
 ## Bonus Part - Done
