@@ -27,12 +27,10 @@ const TeamDetail = () => {
     return (
         <div className="container">
             
-            <div className="">
-                <img className="teamDetailBanner" src={team.strTeamBanner} alt=""/>
-            </div>
+            <img className="teamDetailBanner" src={team.strTeamBanner} alt=""/>
 
             <div className="row m-3 teamDetail rounded">
-                
+
                 <div className="col-md-6 p-4">
 
                     <h3 className="text-center">{team.strLeague}</h3>
@@ -48,7 +46,7 @@ const TeamDetail = () => {
                 
                 <div className="col-md-6 p-4">
                     {
-                    team.strGender === 'Male' ? <img className="img-fluid" src={male} alt="" /> : <img className="img-fluid" src={female} alt="" />
+                    team.strGender === 'Male' ? <img className=" maleFemaleImg" src={male} alt="" /> : <img className=" maleFemaleImg" src={female} alt="" />
                     }
                 </div>
             </div>

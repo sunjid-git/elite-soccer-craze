@@ -6,6 +6,9 @@
     
 }
 .teamDetail{
-    background-color: rgb(12, 12, 96);
+    background-color: rgb(12, 12, 67);
     color: white;
+}
+.maleFemaleImg{
+    height:200px;
 }
