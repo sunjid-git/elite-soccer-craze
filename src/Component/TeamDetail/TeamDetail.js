@@ -24,50 +24,52 @@ const TeamDetail = () => {
         .then(res => res.json())
         .then(data => setTeam(data.teams[0]))
     },[])
+
+    
     return (
-        <div className="container">
-            
-            <img className="teamDetailBanner" src={team.strTeamBanner} alt=""/>
+    <div className="container">
+        <img className="teamDetailBanner" src={team.strTeamBanner} alt=""/>
+    <div>
 
-            <div className="row m-3 teamDetail rounded">
+    <div className="teamDetail">
+        <div className="row m-3 rounded teamCardDetail">
+        <div className="col-md-6 p-4">
+        <h3 className="text-center">{team.strLeague}</h3>
 
-                <div className="col-md-6 p-4">
+        <p> <FontAwesomeIcon icon={faMapMarker}/> <strong>Founded : </strong> {team.intFormedYear}</p>
 
-                    <h3 className="text-center">{team.strLeague}</h3>
-
-                    <p> <FontAwesomeIcon icon={faMapMarker}/> <strong>Founded: </strong> {team.intFormedYear}</p>
-
-                    <p> <FontAwesomeIcon icon={faFlagCheckered}/> <strong>Country: </strong> {team.strCountry}</p>
-
-                    <p> <FontAwesomeIcon icon={faFutbol}/> <strong>Sports Type: </strong> {team.strSport}</p>
-
-                    <p> <FontAwesomeIcon icon={faVenusMars}/> <strong>Gender: </strong> {team.strGender}</p>
-                </div>
-                
-                <div className="col-md-6 p-4">
-                    {
-                    team.strGender === 'Male' ? <img className=" maleFemaleImg" src={male} alt="" /> : <img className=" maleFemaleImg" src={female} alt="" />
-                    }
-                </div>
-            </div>
-
-            <p>{team.strDescriptionEN}</p>
-            <p>{team.strStadiumDescription}</p>
-
-            <div className="d-flex justify-content-around">  
-                <div>
-                   <a  href="https://twitter.com/?lang=en" target="_blank"><img className="socialIcon" src={twitter} alt=""/></a>
-
-                    <a href="https://www.facebook.com/groups/completewebdevelopment3" target="_blank"><img className="socialIcon" src={fb} alt=""/></a>
-
-                    <a  href="https://www.youtube.com/" target="_blank"  target="_blank"><img className="socialIcon" src={youtube} alt=""/></a>
-                </div>
-            </div>
-
-            <div className="m-3">
-                <Button className="d-flex justify-content-center " as={Link} to="/" variant="success">Go home</Button>
-            </div>
+        <p> <FontAwesomeIcon icon={faFlagCheckered} /><strong> Country : </strong> {team.strCountry}</p>
+        <p> <FontAwesomeIcon icon={faFutbol}/> <strong> Sports Type : </strong> {team.strSport}</p>
+        <p> <FontAwesomeIcon icon={faVenusMars}/> <strong> Gender : </strong> {team.strGender}</p>
         </div>
+
+        <div className="col-md-6 p-4">
+            {
+            team.strGender === 'Male' ? <img className=" maleFemaleImg" src={male} alt="" /> : <img className=" maleFemaleImg" src={female} alt="" />
+            }
+        </div>
+        </div>
+
+        <p>{team.strStadiumDescription}</p>
+        <p>{team.strDescriptionEN}</p>
+
+        <div className="d-flex justify-content-around">  
+        <div>
+        <a  href="https://twitter.com/?lang=en" target="_blank"><img className="socialIcon" src={twitter} alt=""/></a>
+
+            <a href="https://www.facebook.com/groups/completewebdevelopment3" target="_blank"><img className="socialIcon" src={fb} alt=""/></a>
+
+            <a  href="https://www.youtube.com/" target="_blank"  target="_blank"><img className="socialIcon" src={youtube} alt=""/></a>
+        </div>
+        </div>
+
+        <div className="m-3">
+        <Button className="d-flex justify-content-center " as={Link} to="/" variant="success">Go home</Button>
+        </div>
+    </div>
+        
+    </div>
+    </div>
     );
 };
 

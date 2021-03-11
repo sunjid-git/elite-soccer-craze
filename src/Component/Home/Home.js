@@ -21,16 +21,16 @@ const Home = () => {
 
                 <h1 className="homeTitle">Elite soccer Craze</h1>
                 <img  src={homeImg}  alt="homeImage"/>
-            
-            
+                <div className="d-flex justify-content-lg-center">
+
                 <div className="row">
-                    {
-                     teams.map( team => <Team team={team}></Team> )
-                    }
+                {
+                 teams.map( team => <Team team={team}></Team> )
+                }
+            </div>
                 </div>
             
         </div>
     );
 };
-
 export default Home;
