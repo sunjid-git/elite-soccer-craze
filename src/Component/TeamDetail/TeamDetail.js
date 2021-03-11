@@ -55,11 +55,11 @@ const TeamDetail = () => {
 
         <div className="d-flex justify-content-around">  
         <div>
-        <a  href="https://twitter.com/?lang=en" target="_blank"><img className="socialIcon" src={twitter} alt=""/></a>
+        <a  href="https://twitter.com/?lang=en" target="blank"><img className="socialIcon" src={twitter} alt=""/></a>
 
-            <a href="https://www.facebook.com/groups/completewebdevelopment3" target="_blank"><img className="socialIcon" src={fb} alt=""/></a>
+        <a href="https://www.facebook.com/groups/completewebdevelopment3" target="blank"><img className="socialIcon" src={fb} alt=""/></a>
 
-            <a  href="https://www.youtube.com/" target="_blank"  target="_blank"><img className="socialIcon" src={youtube} alt=""/></a>
+        <a  href="https://www.youtube.com/" target="blank"  target="_blank"><img className="socialIcon" src={youtube} alt=""/></a>
         </div>
         </div>
 
