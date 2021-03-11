@@ -59,7 +59,7 @@ const TeamDetail = () => {
 
         <a href="https://www.facebook.com/groups/completewebdevelopment3" target="blank"><img className="socialIcon" src={fb} alt=""/></a>
 
-        <a  href="https://www.youtube.com/" target="blank"  target="_blank"><img className="socialIcon" src={youtube} alt=""/></a>
+        <a  href="https://www.youtube.com/" target="blank"  target="blank"><img className="socialIcon" src={youtube} alt=""/></a>
         </div>
         </div>
 
