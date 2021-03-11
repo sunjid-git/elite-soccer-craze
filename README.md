@@ -1,4 +1,4 @@
-# Elite Soccer Craze [Live]()
+# Elite Soccer Craze [Live Site]()
 
 ## Requirements - Done
 ## Bonus Part - Done
@@ -11,6 +11,8 @@
 ### For more awesomeness font-awesome have been used.
 
 In this project page visiting is bidirectional means you can go and come back to the home page using specific (button) element... 
+
+### visiting wrong page shows you error message.
 
 
 
