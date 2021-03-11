@@ -19,7 +19,7 @@ const Home = () => {
     return (
        <div className="container homePage">
             <div>
-                <h1 className="homeTitle">Elite soccer Craze</h1>
+            <h1 className="homeTitle">Elite soccer Craze</h1>
                 <img  src={homeImg}  alt="homeImage"/>
             </div>
             <div className="row">
