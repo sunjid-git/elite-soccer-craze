@@ -1,7 +1,7 @@
-# Elite Soccer Craze [Live Site](https://youthful-hawking-c6635a.netlify.app/)
+# Elite Soccer Craze 
 
-## Requirements - Done
-## Bonus Part - Done
+[Live Site](https://youthful-hawking-c6635a.netlify.app/)
+
 
 ## This project is about the team details of English Premier League
 
