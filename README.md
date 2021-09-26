@@ -1,3 +1,3 @@
 ### `Elite Soccer Craze `
 
-[Elite Soccer Craze](https://competent-beaver-ae75a0.netlify.app/)
+[Elite Soccer Craze](https://elite-soccer-craze.netlify.app/)
